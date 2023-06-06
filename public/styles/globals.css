@@ -1,0 +1,12 @@
+@import "rest.css";
+@import "list.css";
+@import "write.css";
+@import "view.css";
+@import "btns.css";
+@import "navBar.css";
+body {
+    font-family: "Apple SD Gothic Neo";
+}
+
+
+

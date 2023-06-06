@@ -1,0 +1,53 @@
+.list-bg {
+    background: rgb(249, 250, 255);
+    padding: 10px;
+}
+
+.list {
+    margin: 20px;
+}
+
+
+.list-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+
+.list-item h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.list-item span {
+    color: grey;
+    margin: 5px 0px;
+}
+
+
+.btn-write-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.btn-write {
+    margin: 20px;
+    background: deepskyblue;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+}
+
+.list-bg .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}

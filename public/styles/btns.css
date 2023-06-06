@@ -1,0 +1,27 @@
+.btns-wrap {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.btns-wrap span{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.btns-wrap .list {
+    background: grey;
+}
+
+.btns-wrap .edit {
+    background: deepskyblue;
+}
+
+.btns-wrap .delete {
+    background: lightcoral;
+}

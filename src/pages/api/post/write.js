@@ -1,6 +1,6 @@
 import moment from "moment";
-import { connectDB } from "@/database/mongoDB";
 import checkNull from "@/pages/api/common/checkNullValue";
+import { insertMongo } from "@/pages/api/common/mongo";
 
 export default async function handler(req, res) {
   if (req.method == "GET") {
@@ -17,30 +17,15 @@ export default async function handler(req, res) {
     const dbData = {
       ...nullCheckData,
       regDate: moment().utc().format(),
+      isDeleted: false,
     };
 
     const result = checkNull("write", nullCheckData); // result[0] = statusCode , result [1] = message
     if (result[0] === 200) {
-      const idx = await insertMongo(dbData);
+      const idx = await insertMongo(dbData, "posts");
       return res.redirect(302, `/view/${idx}`);
     } else {
       return res.status(result[0]).json({ message: result[1] });
     }
-  }
-}
-
-/**
- * IMSERT IN TO MONGO DB
- * @param dbData
- * @returns {Promise<string>}
- */
-async function insertMongo(dbData) {
-  try {
-    const db = (await connectDB).db("Next");
-    const result = await db.collection("posts").insertOne(dbData);
-
-    return result.insertedId.toString();
-  } catch (e) {
-    throw e;
   }
 }

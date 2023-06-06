@@ -1,6 +1,8 @@
 import Link from "next/link";
 
-export default function Buttons({ _id }) {
+export default function Buttons({ data }) {
+  const _id = data._id.toString();
+
   return (
     <div className="btns-wrap">
       <Link href="/list">
@@ -9,7 +11,7 @@ export default function Buttons({ _id }) {
       <Link href={`/edit/${_id}`}>
         <span className="edit">Edit</span>
       </Link>
-      <Link href={`/delete/${_id}`}>
+      <Link href={`/api/get/delete/${_id}`}>
         <span className="delete">Delete</span>
       </Link>
     </div>

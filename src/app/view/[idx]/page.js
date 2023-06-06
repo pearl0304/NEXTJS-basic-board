@@ -1,6 +1,5 @@
 import { connectDB } from "@/database/mongoDB";
 import { ObjectId } from "mongodb";
-import Link from "next/link";
 import Buttons from "@/components/Buttons";
 
 export default async function View(props) {
@@ -29,7 +28,7 @@ export default async function View(props) {
           <p>{result.contents}</p>
         </div>
       </div>
-      <Buttons _id={result._id.toString()} />
+      <Buttons data={result} />
     </div>
   );
 }

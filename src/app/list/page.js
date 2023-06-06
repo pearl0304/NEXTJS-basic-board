@@ -5,7 +5,7 @@ export default async function List() {
   const db = (await connectDB).db("Next");
   let result = await db
     .collection("posts")
-    .find()
+    .find({ isDeleted: false })
     .sort({ regDate: -1 })
     .toArray();
 

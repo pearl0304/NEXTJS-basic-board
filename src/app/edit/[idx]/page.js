@@ -52,7 +52,7 @@ export default async function edit(props) {
         </div>
 
         <div className="write-btn">
-          <button type="submit">MODIFY</button>
+          <button type="submit">Edit</button>
         </div>
       </form>
     </div>

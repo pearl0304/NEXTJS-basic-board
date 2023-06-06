@@ -6,31 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="146f9668-23a5-40e6-8782-bfcab61d62a0" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fresh.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/btns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/navBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/rest.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/view.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/write.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/edit/[idx]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/list/DetailLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/list/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/view/[idx]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/write/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/mongoDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/common/checkNullValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/post/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/post/write.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/common/mongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/get/delete/[id].js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../next-reservation/.idea/next-reservation.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../next-reservation/src/common/RootLayout.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../next-reservation/src/common/Seo.tsx" afterDir="false" />
@@ -57,6 +34,13 @@
       <change afterPath="$PROJECT_DIR$/../next-reservation/src/pages/restaurant/details.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../next-reservation/src/pages/restaurant/menu.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../next-reservation/src/pages/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/edit/[idx]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit/[idx]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/list/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/list/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view/[idx]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view/[idx]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/post/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/post/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/post/write.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/post/write.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../node_modules/.package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../node_modules/moment/CHANGELOG.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../node_modules/moment/LICENSE" beforeDir="false" />
@@ -637,7 +621,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -647,28 +631,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/kylie/Desktop/study/fresh",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/kylie/Desktop/study/fresh/node_modules/prettier",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kylie/Desktop/study/fresh&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/kylie/Desktop/study/fresh/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/api/get" />
       <recent name="$PROJECT_DIR$/src/pages/api/post" />
       <recent name="$PROJECT_DIR$/public/styles" />
       <recent name="$PROJECT_DIR$/public" />
@@ -707,7 +692,8 @@
       <workItem from="1684544115274" duration="4957000" />
       <workItem from="1684549974805" duration="3937000" />
       <workItem from="1685859838934" duration="15248000" />
-      <workItem from="1686030273146" duration="7977000" />
+      <workItem from="1686030273146" duration="8667000" />
+      <workItem from="1686054321792" duration="5156000" />
     </task>
     <servers />
   </component>
